@@ -1,0 +1,127 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Python environments
+.env
+.venv
+venv/
+ENV/
+env/
+pyvenv.cfg
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Database
+*.db
+*.sql
+*.sqlite
+
+# Dynamic config / settings
+/config.py
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.sublime-project
+
+# Compiled Source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Testing
+/coverage/
+*.coverage
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.coverage.*
+
+# Virtual Machine Files #
+#########################
+*.vmx
+*.vmdk
+*.vbox
+
+# Others #
+##########
+.env.local
