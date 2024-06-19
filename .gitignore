@@ -21,107 +21,124 @@ sdist/
 var/
 wheels/
 pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
 # PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
-# Python environments
-.env
-.venv
-venv/
-ENV/
-env/
-pyvenv.cfg
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Flask stuff
-instance/
-.webassets-cache
-
-# Database
-*.db
-*.sql
-*.sqlite
-
-# Dynamic config / settings
-/config.py
-
-# Node.js
-node_modules/
-package-lock.json
-npm-debug.log
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-*.sublime-workspace
-
-# IDE / Editor directories
-.idea/
-.vscode/
-*.sublime-project
-
-# Compiled Source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Testing
-/coverage/
-*.coverage
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.py,cover
 .hypothesis/
 .pytest_cache/
-.coverage.*
+cover/
 
-# Virtual Machine Files #
-#########################
-*.vmx
-*.vmdk
-*.vbox
+# Translations
+*.mo
+*.pot
 
-# Others #
-##########
-.env.local
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+doc/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Cython debug symbols
+cython_debug/
+
+# Flask-SQLAlchemy
+chatbot.db
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+build/
+.cache
+*.tsbuildinfo
